@@ -1,3 +1,11 @@
 Flask==2.2.2
+os
+sys
+predictions
+pandas
+sklearn
+warnings
+joblib
+Flask-Cors
 flask_restful
 
