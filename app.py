@@ -11,7 +11,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 from flask import Flask, jsonify
 from sklearn.cluster import KMeans
 import joblib
-import your_ml_model
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"*": {"origins": "*"}})
