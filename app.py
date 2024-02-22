@@ -1,16 +1,16 @@
-from flask import Flask, request, redirect
-from flask_restful import Resource, Api
-from flask_cors import CORS
-import os
-import sys
-import predictions
-import pandas as pd
-from sklearn.preprocessing import StandardScaler
-import warnings
-from sklearn.metrics.pairwise import cosine_similarity
-from flask import Flask, jsonify
-from sklearn.cluster import KMeans
-import joblib
+# from flask import Flask, request, redirect
+# from flask_restful import Resource, Api
+# from flask_cors import CORS
+# import os
+# import sys
+# import predictions
+# import pandas as pd
+# from sklearn.preprocessing import StandardScaler
+# import warnings
+# from sklearn.metrics.pairwise import cosine_similarity
+# from flask import Flask, jsonify
+# from sklearn.cluster import KMeans
+# import joblib
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"*": {"origins": "*"}})
