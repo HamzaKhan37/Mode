@@ -1,8 +1,4 @@
 Flask==2.2.2
-predictions
-pandas
-scikit-learn
-joblib
 Flask-Cors
 flask_restful
 
